@@ -1,2 +1,8 @@
-# Bdd
-In this repository are my Databases practices that I did in 2nd year of Computer Engineering at the University of Córdoba in Course 20/21.
+Instructions:
+The practices are organized as follows:
+
+The P# folders represent each of the practices with their corresponding number, also in each practice you will find a PDF document with the statements of the exercises.
+
+Within these folders are a series of subfolders denoted as E# that represent each of the exercises of the practices.
+
+The practices are made with SQLdeveloper to see them simply import the corresponding file
