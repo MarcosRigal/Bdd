@@ -5,4 +5,4 @@ The P# folders represent each of the practices with their corresponding number, 
 
 Within these folders are a series of subfolders denoted as E# that represent each of the exercises of the practices.
 
-The practices are made with SQLdeveloper to see them simply import the corresponding file
+The practices are made with SQLdeveloper to see them simply import the corresponding file.
