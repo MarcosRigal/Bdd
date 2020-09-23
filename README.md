@@ -1,4 +1,4 @@
-![BDD](https://imgur.com/a/H4txMt8)
+![Imgur](https://imgur.com/XpxMvV9)
 
 # Instructions:
 The practices are organized as follows:
