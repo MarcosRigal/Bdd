@@ -1,4 +1,4 @@
-![BDD](https://static.javatpoint.com/dbms/images/types-of-databases.png)
+![BDD](https://imgur.com/a/H4txMt8)
 
 # Instructions:
 The practices are organized as follows:
