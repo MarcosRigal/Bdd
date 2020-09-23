@@ -1,3 +1,5 @@
+![BDD](https://www.antevenio.com/wp-content/uploads/2017/01/las-mejores-bases-de-datos-de-email-de-espa%C3%B1a-1.jpg)
+
 # Instructions:
 The practices are organized as follows:
 
