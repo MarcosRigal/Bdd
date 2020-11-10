@@ -1,4 +1,4 @@
-SELECT dni, telefono
+SELECT dni
 FROM votantes
 WHERE TO_CHAR(telefono) LIKE '%66%6%'
 OR TO_CHAR(telefono) LIKE  '%6%66%'

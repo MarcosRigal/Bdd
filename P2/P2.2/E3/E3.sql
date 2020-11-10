@@ -1,4 +1,6 @@
-SELECT nombre
+SELECT localidades.nombre, provincias.nombre 
 FROM localidades
-WHERE substr(to_char(numerohabitantes),-1,1)
-LIKE to_char(provincia);
+JOIN provincias
+ON localidades.provincia=provincias.idprovincia
+WHERE substr(to_char(localidades.numerohabitantes),-1,1)
+LIKE to_char(localidades.provincia);
