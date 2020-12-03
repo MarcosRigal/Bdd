@@ -6,7 +6,8 @@ CURSOR fila is SELECT nombrecompleto, certidumbre FROM partidos, consultas_datos
 
 media FLOAT := 0;
 contador NUMBER(8) := 0;
-
+   /*NUMBER (3,0)Precisión de 3 y escala 0 (3 digitos (Los digitos incluyen 
+   la suma de los de la parte entera y la parte decimal)y 0 decimales)*/
 BEGIN
 
 FOR tupla IN fila LOOP
