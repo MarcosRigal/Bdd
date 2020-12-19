@@ -1,0 +1,1 @@
+alter table votantes add constraint check_telefono check(telefono > 600000000 and telefono<799999999);
