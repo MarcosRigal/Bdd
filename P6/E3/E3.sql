@@ -1,4 +1,4 @@
-create or replace trigger3
+create or replace trigger trigger3
 before insert or update on consultas for each row
 begin
    if :new.fecha > SYSDATE then
