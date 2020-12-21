@@ -1,11 +1,5 @@
-SELECT
-    nombrecompleto
-FROM
-    votantes
-WHERE
-    substr(dni, - length(localidad + 1), length(localidad + 1)) LIKE localidad + 1;
+SELECT v.nombrecompleto, v.DNI, v.LOCALIDAD FROM votantes v
+WHERE SUBSTR(v.dni,1,1)=v.localidad;
 
-/*
-Hay que coger length de localidad +1 porque si no no estamos comparado bien ya que si localidad es nueve 
-a la izquierda del like tendremos un 10 (2 cifras) y a la derecha un numero (de 1 cifra) ¿no?
-*/
+# con SUBSTR(caden, primer item a seleccionar, ultimo item a seleccionar) si hacemos SUBSTR(v.dni,1,1) estamos cogiendo un dni 19823476012 
+# y seleccionando solo el 1, para despues compararlo con la localidad
