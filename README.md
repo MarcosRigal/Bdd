@@ -1,4 +1,6 @@
-![BDD](https://i.imgur.com/XpxMvV9.png){width=100%}
+<div align="center">
+    <img width="100%" src="https://i.imgur.com/XpxMvV9.png" alt="BDD">
+</div>
 
 # Instructions:
 The practices are organized as follows:
